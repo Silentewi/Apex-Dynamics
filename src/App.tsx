@@ -95,10 +95,10 @@ export default function App() {
           onClick={() => scrollToSection('hero', 'Overview')}
           className="flex items-center gap-3 z-10 cursor-pointer group"
         >
-          <img
-            src="/logo.png"
-            alt="Apex Dynamics Logo"
-            className="w-8 h-8 sm:w-9 sm:h-9 object-contain drop-shadow-md transition-transform group-hover:scale-110 duration-300"
+         <img
+  src={`${import.meta.env.BASE_URL}logo.png`}
+  alt="Apex Dynamics Logo"
+  className="w-8 h-8 sm:w-9 sm:h-9 object-contain drop-shadow-md transition-transform group-hover:scale-110 duration-300"
           />
           <span className="text-white text-xl sm:text-2xl font-playfair italic tracking-tight drop-shadow-md">
             Apex Dynamics
