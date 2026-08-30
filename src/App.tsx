@@ -5,8 +5,8 @@ import { DiagnosticsSection } from './components/DiagnosticsSection'
 import { TriptychContactSection } from './components/TriptychContactSection'
 import { Footer } from './components/Footer'
 
-const BG_IMAGE_1 = '/car-exterior.webp'
-const BG_IMAGE_2 = '/car-interior.webp'
+const BG_IMAGE_1 = `${import.meta.env.BASE_URL}car-exterior.webp`
+const BG_IMAGE_2 = `${import.meta.env.BASE_URL}car-interior.webp`
 
 const SPOTLIGHT_R = 260
 
